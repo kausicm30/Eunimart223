@@ -1,0 +1,856 @@
+{
+	"info": {
+		"_postman_id": "e5daac96-7e97-4b83-9e52-6e45185314bf",
+		"name": "MTB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "initially start the server",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "initially start the server",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"22-hsPuX11761wtpLW8CJFVlGg0heE\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 23:14:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "successfully redirect to home page"
+				}
+			]
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/home",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "home",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/home",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"home"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-3ew7eC4uVlbWUlAaSHemUYLzWCU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 23:34:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "successfully its redirect to home page"
+				}
+			]
+		},
+		{
+			"name": "adminlogin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "adminlogin",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/adminlogin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"adminlogin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "44"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2c-e6VovzgcahuMuwYLG9L7GJrLnfU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 23:35:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "successfully its redirect to adminlogin page"
+				}
+			]
+		},
+		{
+			"name": "ValidateAdminLoginform",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/validateadminloginform",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"validateadminloginform"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ValidateAdminLoginform",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@gmail.com\",\r\n    \"password\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/validateadminloginform",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"validateadminloginform"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1892"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"764-6L64xiZJUmao7LnJ9kP9vcEhBLs\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:13:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"Master\",\n        \"movietime\": \"2.00pm\",\n        \"nooftickets\": \"3\",\n        \"seatnumbers\": \"29,30,31\",\n        \"totalamount\": \"450\"\n    },\n    {\n        \"email\": \"balu@gmail.com\",\n        \"moviename\": \"Master\",\n        \"movietime\": \"2.00pm\",\n        \"nooftickets\": \"2\",\n        \"seatnumbers\": \"15,16\",\n        \"totalamount\": \"300\"\n    },\n    {\n        \"email\": \"mathan@gmail.com\",\n        \"moviename\": \"Drishyam 2\",\n        \"movietime\": \"8.00pm\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"17,18,23,24\",\n        \"totalamount\": \"600\"\n    },\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"WAR\",\n        \"movietime\": \"8.00am\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"3,4,5,6\",\n        \"totalamount\": \"600\"\n    },\n    {\n        \"email\": \"balu@gmail.com\",\n        \"moviename\": \"KGF\",\n        \"movietime\": \"5.00pm\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"13,18,27,39\",\n        \"totalamount\": \"600\"\n    },\n    {\n        \"email\": \"balu@gmail.com\",\n        \"moviename\": \"GodzillavsKong\",\n        \"movietime\": \"11.00am\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"11,12,21,22\",\n        \"totalamount\": \"600\"\n    },\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"Master\",\n        \"movietime\": \"2.00pm\",\n        \"nooftickets\": \"3\",\n        \"seatnumbers\": \"3,4,5\",\n        \"totalamount\": \"450\"\n    },\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"KGF\",\n        \"movietime\": \"5.00pm\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"7,8,15,16\",\n        \"totalamount\": \"600\"\n    },\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"KGF\",\n        \"movietime\": \"5.00pm\",\n        \"nooftickets\": \"2\",\n        \"seatnumbers\": \"23,24\",\n        \"totalamount\": \"300\"\n    },\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"WAR\",\n        \"movietime\": \"8.00am\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"21,22,29,30\",\n        \"totalamount\": \"600\"\n    },\n    {\n        \"email\": \"jai@gmail.com\",\n        \"moviename\": \"KGF\",\n        \"movietime\": \"5.00pm\",\n        \"nooftickets\": \"3\",\n        \"seatnumbers\": \"4,5,6\",\n        \"totalamount\": \"450\"\n    },\n    {\n        \"email\": \"kausicm30@gmail.com\",\n        \"moviename\": \"GodzillavsKong\",\n        \"movietime\": \"11.00am\",\n        \"nooftickets\": \"3\",\n        \"seatnumbers\": \"3,4,5\",\n        \"totalamount\": \"450\"\n    },\n    {\n        \"email\": \"balu@gmail.com\",\n        \"moviename\": \"GodzillavsKong\",\n        \"movietime\": \"11.00am\",\n        \"nooftickets\": \"2\",\n        \"seatnumbers\": \"6,14\",\n        \"totalamount\": \"300\"\n    },\n    {\n        \"email\": \"balu@gmail.com\",\n        \"moviename\": \"Master\",\n        \"movietime\": \"2.00pm\",\n        \"nooftickets\": \"4\",\n        \"seatnumbers\": \"1,2,10,11\",\n        \"totalamount\": \"600\"\n    }\n]"
+				},
+				{
+					"name": "ValidateAdminLoginform",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@gmail.com\",\r\n    \"password\": \"kausic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/validateadminloginform",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"validateadminloginform"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e-iPssh1n5BmJZ2SYjyqCU4Vht1Xw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:13:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "Please enter valid credentials"
+				}
+			]
+		},
+		{
+			"name": "uselogin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "uselogin",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/login",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"23-0lXS8XoKIfWyJh9x6FKkiuBGGG0\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 01 Jun 2021 23:54:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "successfully redirect to login page"
+				}
+			]
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "signup",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user\": \"govardhanan\",\r\n    \"email\": \"gova@gmail.com\",\r\n    \"password\": \"gova\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/signup",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "44"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2c-eoI+qNLB/I+00o7Q/hKry8ViWPE\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:11:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "values successfully inserted in the database"
+				}
+			]
+		},
+		{
+			"name": "signin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "signin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"balu@gmail.com\",\r\n    \"password\": \"kausic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/signin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "27"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b-pVi2Yb0cEwS8HfzjbIxD5t7FqXA\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:08:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "Login verified successfully"
+				},
+				{
+					"name": "signin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"kausicm30@gmail.com\",\r\n    \"password\": \"kausic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/signin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "27"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b-pVi2Yb0cEwS8HfzjbIxD5t7FqXA\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:22:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "Login verified successfully"
+				},
+				{
+					"name": "signin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"kausicm30@gmail.com\",\r\n    \"password\": \"ka\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/signin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13-GDV7DtSuCQ8WbwnkerqBeJyOy8w\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:22:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "OOPs!! login failed"
+				}
+			]
+		},
+		{
+			"name": "seatbooking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "seatbooking",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/seatbookforgodzilla",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"seatbookforgodzilla"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "85"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"55-9zCtcfjNFvWEHrLbHwhQXIZR074\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:17:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first\": \"11,12,21,22,3,4,5,6,14\",\n    \"moviename\": \"GodzillavsKong\",\n    \"movietime\": \"11.00am\"\n}"
+				},
+				{
+					"name": "seatbooking",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/seatbookformaster",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"seatbookformaster"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "84"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"54-FLZAM3OMKCs5zV85jvAJ/3yGWhg\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:19:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first\": \"29,30,31,15,16,3,4,5,1,2,10,11\",\n    \"moviename\": \"Master\",\n    \"movietime\": \"2.00pm\"\n}"
+				},
+				{
+					"name": "seatbooking",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/seatbookforWar",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"seatbookforWar"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "70"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"46-zC0/HQrz1owo8t6vMvVblgFs/+w\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Jun 2021 00:20:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first\": \"3,4,5,6,21,22,29,30\",\n    \"moviename\": \"WAR\",\n    \"movietime\": \"8.00am\"\n}"
+				}
+			]
+		}
+	]
+}

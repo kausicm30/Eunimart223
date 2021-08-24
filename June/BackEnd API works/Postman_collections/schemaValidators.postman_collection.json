@@ -1,0 +1,630 @@
+{
+	"info": {
+		"_postman_id": "51d79d27-e949-4d15-ad6d-6404f704cb97",
+		"name": "schemaValidators",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3030/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3030/getMovieDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"movieName\":\"F9\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/getMovieDetails",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"getMovieDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/getMovieDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/getMovieDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"getMovieDetails"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "224"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e0-lu/oytQg/Cy3/2zP0Yz4vaavWUs\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:06:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"JsonSchemaValidationError\",\n    \"validationErrors\": {\n        \"body\": [\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"movieName\"\n                },\n                \"message\": \"should have required property 'movieName'\"\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "localhost:3030/getMovieDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"movieName\":\"F9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/getMovieDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"getMovieDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "216"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d8-idXu40Ia8q/+7WGquQYN2I+6FYY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:08:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Movie details\": [\n        {\n            \"moviename\": \"F9\",\n            \"theatrename\": \"NKP Theatre\",\n            \"time\": \"9.00am\"\n        },\n        {\n            \"moviename\": \"F9\",\n            \"theatrename\": \"Pheonix Theatre\",\n            \"time\": \"9.00am\"\n        },\n        {\n            \"moviename\": \"F9\",\n            \"theatrename\": \"Vijiyan Theatre\",\n            \"time\": \"9.00am\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/admin//addTheatreDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/admin//addTheatreDetails",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"",
+						"addTheatreDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/admin//addTheatreDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/admin//addTheatreDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"admin",
+								"",
+								"addTheatreDetails"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "684"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2ac-+YA/6oZ8OK8MxtB7BsOzjcoN2wM\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:08:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"JsonSchemaValidationError\",\n    \"validationErrors\": {\n        \"body\": [\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"email\"\n                },\n                \"message\": \"should have required property 'email'\"\n            },\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"movieName\"\n                },\n                \"message\": \"should have required property 'movieName'\"\n            },\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"time\"\n                },\n                \"message\": \"should have required property 'time'\"\n            },\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"theatreName\"\n                },\n                \"message\": \"should have required property 'theatreName'\"\n            }\n        ]\n    }\n}"
+				},
+				{
+					"name": "localhost:3030/admin//addTheatreDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Godzilla vs Kong\",\r\n    \"time\":\"2.00PM\",\r\n    \"theatreName\":\"Basha Theatre\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/admin//addTheatreDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"admin",
+								"",
+								"addTheatreDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"23-747/VWm9zZWW77bKr0uHA0CqwUA\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:13:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"successfully inserted\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/admin/updateMovieDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Master\",\r\n    \"theatreName\":\"Basha Theatre\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/admin/updateMovieDetails",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"updateMovieDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/admin/updateMovieDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Master\",\r\n    \"theatreName\":\"Basha Theatre\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/admin/updateMovieDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"admin",
+								"updateMovieDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "34"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"22-G5YawM55rro4Z8pfCKU4+22JbAY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:15:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"successfully updated\"\n}"
+				},
+				{
+					"name": "localhost:3030/admin/updateMovieDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Master\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/admin/updateMovieDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"admin",
+								"updateMovieDetails"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "228"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e4-MWZQVFNMh22CcylaU/e+51+3bnQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:15:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"JsonSchemaValidationError\",\n    \"validationErrors\": {\n        \"body\": [\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"theatreName\"\n                },\n                \"message\": \"should have required property 'theatreName'\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/admin/deleteTheatreDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Godzilla vs Kong\",\r\n    \"theatreName\":\"Basha Theatre\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/admin/deleteTheatreDetails",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"admin",
+						"deleteTheatreDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/admin/deleteTheatreDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Godzilla vs Kong\",\r\n    \"theatreName\":\"Basha Theatre\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/admin/deleteTheatreDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"admin",
+								"deleteTheatreDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29-I3suD+6QAT1172oUI6Vs7HkskDU\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:16:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Message\": {\n        \"message\": \"No Rows Deleted\"\n    }\n}"
+				},
+				{
+					"name": "localhost:3030/admin/deleteTheatreDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"manickam@gmail.com\",\r\n    \"movieName\":\"Godzilla vs Kong\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/admin/deleteTheatreDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"admin",
+								"deleteTheatreDetails"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "228"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e4-MWZQVFNMh22CcylaU/e+51+3bnQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 09 Jun 2021 03:16:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"JsonSchemaValidationError\",\n    \"validationErrors\": {\n        \"body\": [\n            {\n                \"keyword\": \"required\",\n                \"dataPath\": \"\",\n                \"schemaPath\": \"#/required\",\n                \"params\": {\n                    \"missingProperty\": \"theatreName\"\n                },\n                \"message\": \"should have required property 'theatreName'\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}

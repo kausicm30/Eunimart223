@@ -1,0 +1,805 @@
+{
+	"info": {
+		"_postman_id": "ff570b7e-6712-4d01-b528-ba262122d9e8",
+		"name": "Admin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3030/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29-1ZcMLzX8AbsCEwaF6M/Mx3n1xQk\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Jun 2021 12:26:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"executed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/adminLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"kausic.m@eunimart.com\",\r\n    \"password\":\"cosmic\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/adminLogin",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"adminLogin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/adminLogin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"kausic.m@eunimart.com\",\r\n    \"password\":\"cosmic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/adminLogin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"adminLogin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "110"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6e-6HQGsGXX5n1mHdWT6Xsa4iKy19w\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "connect.sid=s%3AMewxwc84CTJQvSIC7iAGoe7rB8ifWXr_.LHGqdiRDRsw%2BOh8%2Bb5pBVf59VKuIal0QFvPsLKYXYow; Path=/; HttpOnly"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Jun 2021 12:26:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"email\": \"kausic.m@eunimart.com\",\n    \"password\": \"cosmic\",\n    \"message\": \"admin signed successfully\"\n}"
+				},
+				{
+					"name": "localhost:3030/adminLogin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"kausicm.com\",\r\n    \"password\":\"cosmic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/adminLogin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"adminLogin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "110"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6e-TC3VInF+NFUREmYl5GflINOJdRI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Jun 2021 12:28:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"failure\",\n    \"email\": \"kausicm.com\",\n    \"password\": \"cosmic\",\n    \"message\": \"Oops !! invalid emailid or password\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"logout"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/logout",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/logout",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"32-h03GaxUUGUZRlNuRVVmxumeOEAs\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Jun 2021 12:26:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"session destroyed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/displayAdminPage",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"displayAdminPage"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/logout",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/displayAdminPage",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"displayAdminPage"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35-pA9jEYaEacBLS6Bu7mTHnbmySdM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:47:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"failure\",\n    \"message\": \"you must login first\"\n}"
+				},
+				{
+					"name": "localhost:3030/logout",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/displayAdminPage",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"displayAdminPage"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35-pA9jEYaEacBLS6Bu7mTHnbmySdM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:47:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"failure\",\n    \"message\": \"you must login first\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/displayAdminPage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/displayAdminPage",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"displayAdminPage"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/displayAdminPage",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/displayAdminPage",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"displayAdminPage"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35-pA9jEYaEacBLS6Bu7mTHnbmySdM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:49:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"failure\",\n    \"message\": \"you must login first\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/adminLogin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"kausic.m@eunimart.com\",\r\n    \"password\":\"cosmic\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/adminLogin",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"adminLogin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/adminLogin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"kausic.m@eunimart.com\",\r\n    \"password\":\"cosmic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3030/adminLogin",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"adminLogin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "110"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6e-6HQGsGXX5n1mHdWT6Xsa4iKy19w\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "connect.sid=s%3AsGPoK4CPuXDXcVs6KXuuLUDF0a4qXbg5.JpRtXnkzYw9ZE7EmKhPO%2Fz2JuLS%2FfpmqP6yv5tA2BEA; Path=/; HttpOnly"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:50:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"email\": \"kausic.m@eunimart.com\",\n    \"password\": \"cosmic\",\n    \"message\": \"admin signed successfully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/displayAdminPage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/displayAdminPage",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"displayAdminPage"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/displayAdminPage",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/displayAdminPage",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"displayAdminPage"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1903"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"76f-8mtSMOAb+VsPDUmkHlrZUmGPLCg\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:50:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": [\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"Master\",\n            \"movietime\": \"2.00pm\",\n            \"nooftickets\": \"3\",\n            \"seatnumbers\": \"29,30,31\",\n            \"totalamount\": \"450\"\n        },\n        {\n            \"email\": \"balu@gmail.com\",\n            \"moviename\": \"Master\",\n            \"movietime\": \"2.00pm\",\n            \"nooftickets\": \"2\",\n            \"seatnumbers\": \"15,16\",\n            \"totalamount\": \"300\"\n        },\n        {\n            \"email\": \"mathan@gmail.com\",\n            \"moviename\": \"Drishyam 2\",\n            \"movietime\": \"8.00pm\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"17,18,23,24\",\n            \"totalamount\": \"600\"\n        },\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"WAR\",\n            \"movietime\": \"8.00am\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"3,4,5,6\",\n            \"totalamount\": \"600\"\n        },\n        {\n            \"email\": \"balu@gmail.com\",\n            \"moviename\": \"KGF\",\n            \"movietime\": \"5.00pm\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"13,18,27,39\",\n            \"totalamount\": \"600\"\n        },\n        {\n            \"email\": \"balu@gmail.com\",\n            \"moviename\": \"GodzillavsKong\",\n            \"movietime\": \"11.00am\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"11,12,21,22\",\n            \"totalamount\": \"600\"\n        },\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"Master\",\n            \"movietime\": \"2.00pm\",\n            \"nooftickets\": \"3\",\n            \"seatnumbers\": \"3,4,5\",\n            \"totalamount\": \"450\"\n        },\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"KGF\",\n            \"movietime\": \"5.00pm\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"7,8,15,16\",\n            \"totalamount\": \"600\"\n        },\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"KGF\",\n            \"movietime\": \"5.00pm\",\n            \"nooftickets\": \"2\",\n            \"seatnumbers\": \"23,24\",\n            \"totalamount\": \"300\"\n        },\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"WAR\",\n            \"movietime\": \"8.00am\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"21,22,29,30\",\n            \"totalamount\": \"600\"\n        },\n        {\n            \"email\": \"jai@gmail.com\",\n            \"moviename\": \"KGF\",\n            \"movietime\": \"5.00pm\",\n            \"nooftickets\": \"3\",\n            \"seatnumbers\": \"4,5,6\",\n            \"totalamount\": \"450\"\n        },\n        {\n            \"email\": \"kausicm30@gmail.com\",\n            \"moviename\": \"GodzillavsKong\",\n            \"movietime\": \"11.00am\",\n            \"nooftickets\": \"3\",\n            \"seatnumbers\": \"3,4,5\",\n            \"totalamount\": \"450\"\n        },\n        {\n            \"email\": \"balu@gmail.com\",\n            \"moviename\": \"GodzillavsKong\",\n            \"movietime\": \"11.00am\",\n            \"nooftickets\": \"2\",\n            \"seatnumbers\": \"6,14\",\n            \"totalamount\": \"300\"\n        },\n        {\n            \"email\": \"balu@gmail.com\",\n            \"moviename\": \"Master\",\n            \"movietime\": \"2.00pm\",\n            \"nooftickets\": \"4\",\n            \"seatnumbers\": \"1,2,10,11\",\n            \"totalamount\": \"600\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/logout",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"logout"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/logout",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/logout",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"32-h03GaxUUGUZRlNuRVVmxumeOEAs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:51:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"session destroyed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "localhost:3030/displayAdminPagenskfdnsk",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/displayAdminPagenskfdnsk",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"displayAdminPagenskfdnsk"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3030/displayAdminPagenskfdnsk",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3030/displayAdminPagenskfdnsk",
+							"host": [
+								"localhost"
+							],
+							"port": "3030",
+							"path": [
+								"displayAdminPagenskfdnsk"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29-bZpxflX0eapWNAkYkAud1N34Zag\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Jun 2021 06:52:06 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"404\",\n    \"message\": \"pagenotfound\"\n}"
+				}
+			]
+		}
+	]
+}
